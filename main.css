@@ -1,3 +1,60 @@
 body {
     background-color: aqua;
+    font-family: 'Sigmar One', cursive;
+
+}
+img {
+    display: block;
+    max-width: 300px;
+    max-height: 400px;
+    min-height: 400px;
+    min-width: 300px;
+    margin: auto;    
+}
+
+.pieCards {
+    display: flex;
+    border: solid black 5px;
+    min-width: 350px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-wrap: wrap;
+    background-color: ghostwhite;
+    flex-flow: column;
+    border-radius: 5px;
+
+
+}
+
+
+#pies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+h3 {
+    text-align: center;
+    background-color: lightgreen;
+
+}
+
+h1 {
+    text-align: center;
+
+}
+
+section {
+    text-align: center;
+    margin: 5px;
+
+}
+
+.text {
+    margin: 10px;
+    border: black solid 2px;
 }
